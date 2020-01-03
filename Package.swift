@@ -2,21 +2,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "AsyncKit",
+    name: "TURecipientBar",
     platforms: [
         .iOS(.v11),
     ],
     products: [
         .library(
-            name: "AsyncKit",
-            targets: ["AsyncKit"]),
+            name: "TURecipientBar",
+            targets: ["TURecipientBar"]),
     ],
     dependencies: [
         // no dependencies
     ],
     targets: [
         .target(
-            name: "AsyncKit",
+            name: "TURecipientBar",
             dependencies: []),
     ]
 )
